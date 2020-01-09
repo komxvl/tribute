@@ -1,0 +1,12 @@
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <br>
+      <input [ngxTribute]="tributeOptions" #tributeDirective="ngx-tribute">
+      <p contenteditable="true"  [ngxTribute]="tributeOptionsForcontenteditable" class="mt-3"></p>
+      <pre>I need some styles for mention items, smthg like this:</pre>
+
+      Some text, another some text <span class="mention-item">{{mentionItem}}</span> Some text, another some text  <span class="mention-item">{{mentionItem}}</span>
+    </div>
+  </div>
+</div>
